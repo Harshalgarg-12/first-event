@@ -180,7 +180,7 @@ h3{
 }
 span{
     color: white;
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 
 .s3-box{
@@ -192,4 +192,565 @@ span{
 }
 .s3-text{
         margin-top: 30px;
+}
+
+
+
+/* lokesh css */
+
+.top-header {
+    height: 40px;
+    width: 100%;
+    background-color: #00a3c8;
+    padding-left: 90px;
+    padding-right: 60px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.top-header-left {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    height: 100%;
+    width: 480px;
+    /* border: 1px solid black; */
+    padding: 12px;
+    display: flex;
+}
+
+.top-header-left i {
+    color: white;
+    height: 10px;
+    width: 8px;
+    cursor: pointer;
+}
+
+.top-header-left span {
+    font-size: 13px;
+    color: #fff;
+    margin-left: 13px;
+    margin-right: 14px;
+}
+
+.top-header-left b {
+    font-size: 13px;
+    color: #fff;
+    margin-left: 17px;
+    margin-right: 14px;
+}
+
+
+
+
+.top-header-right {
+    position: absolute;
+    top: 0;
+    left: 1050px;
+    height: 100%;
+    width: 180px;
+    /* border: 1px solid black; */
+    padding: 12px;
+    display: flex;
+}
+
+.top-header-right i {
+    color: white;
+    /* height: 10px;
+    width: 8px; */
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.footer-up-portion {
+    height: 680px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.footer-up-portion-content {
+    /* border: 1px solid black; */
+    width: 1150px;
+    margin: auto;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.footer-up-portion-content-top {
+    height: 120px;
+    width: 900px;
+    /* border: 1px solid black; */
+    margin-left: 170px;
+    padding-left: 130px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-up-portion-content-top h1 {
+    font-size: 42px;
+    color: #004861;
+    font-family: sans-serif;
+    margin-bottom: 17px;
+}
+
+.footer-up-portion-content-top span {
+    color: #888;
+    font-size: 16px;
+    margin-left: 43px;
+    font-family: sans-serif;
+}
+
+.footer-up-portion-content-top p {
+    color: #888;
+    font-size: 16px;
+    margin-left: 75px;
+    font-family: sans-serif;
+    margin-top: 4px;
+}
+
+.footer-up-portion-content-img-portion {
+    height: 420px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin-left: 120px;
+    padding-left: 130px; */
+    /* padding-right: 30px; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-up-portion-content-img-portion-1 {
+    height: 420px;
+    width: 350px;
+    /* border: 1px solid black; */
+    /* margin-right: 35px; */
+}
+
+.footer-up-portion-content-img-portion-1-img {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-up-portion-content-img-portion-1-img img {
+    height: 100%;
+    width: 100%;
+    transition: 400ms;
+    transform-origin: top top;
+}
+
+.footer-up-portion-content-img-portion-1-img:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+
+.footer-up-portion-content-img-portion-1 strong {
+    color: #004861;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.footer-up-portion-content-img-portion-1 p {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #333;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+
+
+.footer-up-portion-content-img-portion-1 span {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.better-health-portion {
+    height: 750px;
+    width: 100%;
+    background-color: #f8f9fb;
+    padding-top: 50px;
+}
+
+.better-health-portion-top {
+    height: 120px;
+    width: 900px;
+    /* border: 1px solid black; */
+    margin-left: 215px;
+    padding-left: 130px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.better-health-portion-top h1 {
+    font-size: 42px;
+    color: #004861;
+    font-family: sans-serif;
+    margin-bottom: 17px;
+    margin-left: 40px;
+}
+
+.better-health-portion-top span {
+    color: #888;
+    font-size: 16px;
+    margin-left: 43px;
+    font-family: sans-serif;
+}
+
+.better-health-portion-top p {
+    color: #888;
+    font-size: 16px;
+    margin-left: 75px;
+    font-family: sans-serif;
+    margin-top: 4px;
+}
+
+.better-health-portion-content {
+    /* border: 1px solid black; */
+    width: 1150px;
+    margin: auto;
+    height: 500px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 30px; */
+}
+
+
+
+
+
+.better-health-portion-content-img-portion {
+    height: 420px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin-left: 120px;
+    padding-left: 130px; */
+    /* padding-right: 30px; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.better-health-portion-content-img-portion-1 {
+    height: 420px;
+    width: 250px;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    /* margin-right: 35px; */
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.better-health-portion-content-img-portion-1-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.better-health-portion-content-img-portion-1-img img {
+    height: 100%;
+    width: 100%;
+    transition: 400ms;
+    transform-origin: top top;
+}
+
+.better-health-portion-content-img-portion-1-img:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+
+.better-health-portion-content-img-portion-1 strong {
+    color: #00a3c8;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.better-health-portion-content-img-portion-1 p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    margin-right: 16px;
+    line-height: 19px;
+}
+
+
+
+
+.overview-portion{
+    height: 315px;
+    width: 100%;
+    /* padding-top: 50px; */
+}
+
+.overview-portion-content{
+    height: 280px;
+    width: 1300px;
+    margin: auto;
+    /* border: 1px solid black; */
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-top: 40px; */
+}
+.overview-portion-content h1{
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 25px;
+    font-family: sans-serif;
+    color: #000000;
+    font-weight: 660;
+}
+
+.overview-portion-content p{
+        position: absolute;
+    left: 20px;
+    top: 83px;
+    color: #777575;
+    font-size: 18px;
+    margin-right: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    /* margin-right: 90px; */
+}
+
+.overview-portion-content span{
+        position: absolute;
+    left: 80px;
+    top: 75px;
+    color: #777575;
+    font-size: 18px;
+    margin-right: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    /* margin-right: 90px; */
+}
+
+.overview-portion-content-box{
+    position: absolute;
+    top: 220px;
+    left: 570px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E97E3;
+    color: white;
+
+    
+}
+
+.overview-portion-content-box:hover{
+    background-color: #78cc84;
+}
+
+
+
+
+/* mayank css */
+.top-footer{
+    width: 100%;
+    height: 243px;
+    background-image: url(images/banner-6.jpg);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top-footer-container{
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 300;
+}
+.fottercontainertoprow{
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    color: #fff
+    
+}
+.fottercontainertoprow-txt{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.p-text{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.touch{
+    cursor: pointer;
+    width: 182px;
+    height: 48px;
+    margin-left:125px ;
+    border: #fff 2px solid;
+    border-radius: 8px;
+    padding-top: 11px;
+    text-align: center;
+    font-size: 20px;
+    transition:  0.3s ;
+     display: inline-block;
+    align-items: center;
+   
+}
+
+.touch:hover {
+  border-color: rgb(133, 164, 176);
+  transform: scale(2); 
+}
+
+
+.bottom-fotter{
+    margin-top: 100px;
+}
+.bottom-row{
+    display: flex;
+}
+.bottom-rowcol1 {
+    margin: 40px;
+    width: 330px;
+}
+.p2txt{
+    font-size: 15px;
+    margin-top: 30px;
+
+    color: #333;
+
+}
+.digitallogo{
+    display: flex;
+    margin-top: 30px;
+
+}
+.logo1{
+
+    height: 36px;
+    width: 36px;
+   border: #333 2px solid;
+   border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   
+}
+.largeimagecontainer{
+    background-image:url(images/banner-7.jpg) ;
+    width: 100%;
+    /* height: 546px; */
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+    /* padding: 80px; */
+}
+.largeimagecontainer-textcol1{
+/* text-align: center; */
+align-items: center;
+justify-content: center;
+
+height: 306px;
+width: 445px;
+}
+.h2-text{
+    font-size: 40px;
+    /* margin-top: 40px; */
+    font-weight: 900;
+    color: #fff;
+
+
+}
+.facofhospital{
+    margin-bottom: 100px;
+
+}
+.facofhospitalheader{
+    color: rgb(65, 65, 141);
+    margin-left: 40px ;
+    font-size: 50px;
+    font-weight: 500;
+}
+.facofhospitalimg{
+margin: 50px;
+width: 65%;
+}
+.facofhospitalimgroiw1{
+    border-radius: 3px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.facofhospitalimgroiw1 :hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.facofhospitalimgroiw1 img{
+    cursor: pointer;
+   width: 100%;
+}
+.facofhospitalimgroiw2{
+    border: 1px black solid;
+    border-radius: 4px;
+    width: 400px;
+}
+.facofhospitalimg2{
+    background-color: hsl(222 49% 42%/ 1);
+    height: 562px;
+    width: 320px;
+    /* background-color: hsl(222 49% 42% / var(--tw-bg-opacity)); */
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.facofhospitalimg2-top{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.facofhospitalimg2-top-img{
+    height: 65px;
+    width: 56px;
+    margin-left: 15px;
+}
+.facofhospitalimg2-top-img img{
+    height: 100%;
+    width: 100%;
+}
+.facofhospitalimg2-top-text{
+    margin-left: 9px;
+    color: white;
+    font-weight: 300;
+}
+.facofhospitalimg2-top-text h1{
+    margin-bottom: 5px;
+    
 }
